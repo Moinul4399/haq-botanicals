@@ -246,11 +246,9 @@
                 </div>
 
                 <div class="form-card form-card--wide animate-on-scroll">
-                    <form id="supplier-form" class="haq-form" action="https://api.web3forms.com/submit" method="POST" enctype="multipart/form-data" novalidate>
-                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                    <form id="supplier-form" class="haq-form" action="/api/contact" method="POST" enctype="multipart/form-data" novalidate>
+                        <input type="hidden" name="form_type" value="supplier">
                         <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
-                        <input type="hidden" name="subject" value="New Supplier Application via Website">
-                        <input type="hidden" name="from_name" value="HAQ Botanicals Supplier Portal">
 
                         <div class="form__grid form__grid--2col">
                             <div class="form__group">

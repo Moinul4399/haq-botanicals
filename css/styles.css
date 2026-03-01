@@ -211,9 +211,6 @@ p {
 .header__logo img {
     height: 120px;
     width: auto;
-    /* Nahtloser Übergang - Hintergrund verschmilzt mit Header */
-    mix-blend-mode: multiply;
-    filter: contrast(1.05);
 }
 
 .nav {

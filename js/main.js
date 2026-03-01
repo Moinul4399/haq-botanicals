@@ -304,7 +304,7 @@
     }
 
     /**
-     * Handles form submission via AJAX to Web3Forms
+     * Handles form submission via AJAX
      */
     function handleFormSubmit(form) {
         form.addEventListener('submit', function(e) {
@@ -324,7 +324,7 @@
 
             var formData = new FormData(form);
 
-            fetch('https://api.web3forms.com/submit', {
+            fetch('/api/contact', {
                 method: 'POST',
                 body: formData
             })
